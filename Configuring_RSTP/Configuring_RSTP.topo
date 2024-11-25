@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="BC84A3E3-5AA8-4b09-A130-A319E256683C" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-50-63-78" com_port="2000" bootmode="0" cx="189.000000" cy="155.000000" edit_left="216" edit_top="209">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="F93012D9-5E42-42df-9851-E6CD78F39606" name="LSW3" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-6B-25-70" com_port="2002" bootmode="0" cx="195.000000" cy="308.000000" edit_left="222" edit_top="362">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="B95DD8DC-4C9C-4e0d-8CCE-10369E55BCC2" name="LSW4" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-16-80-33" com_port="2003" bootmode="0" cx="432.000000" cy="295.000000" edit_left="459" edit_top="349">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="8BE4C453-FDE2-4f6d-9B73-8E366CB51FD5" name="LSW2" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-2C-73-B8" com_port="2001" bootmode="0" cx="426.000000" cy="152.000000" edit_left="453" edit_top="206">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="BC84A3E3-5AA8-4b09-A130-A319E256683C" destDeviceID="8BE4C453-FDE2-4f6d-9B73-8E366CB51FD5">
+            <interfacePair lineName="Copper" srcIndex="8" srcBoundRectIsMoved="0" srcBoundRect_X="259.180298" srcBoundRect_Y="181.453415" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="8" tarBoundRectIsMoved="0" tarBoundRect_X="409.819702" tarBoundRect_Y="179.546585" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+            <interfacePair lineName="Copper" srcIndex="9" srcBoundRectIsMoved="0" srcBoundRect_X="271.180298" srcBoundRect_Y="193.453415" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="9" tarBoundRectIsMoved="0" tarBoundRect_X="421.819702" tarBoundRect_Y="191.546585" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips />
+</topo>
